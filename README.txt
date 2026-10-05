@@ -58,8 +58,10 @@ de pantalla.
 
 GITHUB
 
-El enlace del repositorio será agregado después de crear el
-repositorio en GitHub.
+GITHUB
+
+Repositorio del proyecto:
+https://github.com/Andrey7-7-7/Laboratorio_5_2
 
 VIDEO
 
