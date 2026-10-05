@@ -1,0 +1,97 @@
+/* =====================================================
+   LABORATORIO 5.2 - ESTILOS CSS
+   Autor: Andrey Arciniegas
+   ===================================================== */
+
+
+/* Selector de elemento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+}
+
+
+/* Selector de clase */
+.hero {
+    background: linear-gradient(135deg, #0d6efd, #212529);
+    color: white;
+    padding: 100px 20px;
+}
+
+
+/* Selector de elemento */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+/* Selector de elemento */
+h2 {
+    color: #212529;
+    font-weight: bold;
+}
+
+
+/* Selector de clase */
+.info-box {
+    background-color: white;
+    border: 2px solid #0d6efd;
+    border-radius: 10px;
+
+    /* Modelo de caja */
+    padding: 25px;
+    margin: 10px;
+}
+
+
+/* Selector de clase */
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+
+/* Selector de clase con pseudoselector */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Selector de ID */
+#menuPrincipal {
+    padding: 5px;
+}
+
+
+/* Selector de elemento */
+footer {
+    margin-top: 40px;
+}
+
+/* Ejemplo del modelo de caja */
+.box-model {
+    background-color: #ffffff;
+    border: 3px solid #0d6efd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 70px 15px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .info-box {
+        margin-top: 20px;
+    }
+}

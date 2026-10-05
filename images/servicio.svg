@@ -1,0 +1,45 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+
+    <rect width="800" height="500" fill="#f4f6f8"/>
+
+    <rect x="100" y="80"
+        width="600"
+        height="340"
+        rx="25"
+        fill="#ffffff"
+        stroke="#0d6efd"
+        stroke-width="8"/>
+
+    <rect x="160" y="130"
+        width="480"
+        height="220"
+        rx="10"
+        fill="#212529"/>
+
+    <rect x="190" y="160"
+        width="420"
+        height="160"
+        fill="#0d6efd"/>
+
+    <circle cx="400" cy="390"
+        r="15"
+        fill="#0d6efd"/>
+
+    <text x="400" y="245"
+        text-anchor="middle"
+        fill="white"
+        font-family="Arial"
+        font-size="35"
+        font-weight="bold">
+        DISEÑO WEB
+    </text>
+
+    <text x="400" y="285"
+        text-anchor="middle"
+        fill="white"
+        font-family="Arial"
+        font-size="22">
+        HTML + CSS + BOOTSTRAP
+    </text>
+
+</svg>
